@@ -815,7 +815,6 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%; /* h-full */
-  justify-content: flex-start;
 }
 
 @media (min-width: 768px) {
