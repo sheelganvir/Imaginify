@@ -19,7 +19,6 @@ const MobileNav = () => {
           alt="logo"
           width={180}
           height={28}
-          
         />
       </Link>
 
@@ -52,7 +51,7 @@ const MobileNav = () => {
 
                 return (
                   <li 
-                    className={`${isActive && 'gradient-text'} p-2 flex whitespace-nowrap text-dark-700`}
+                    className={`${isActive && 'gradient-text'} p-18 flex whitespace-nowrap text-dark-700`}
                     key={link.route}
                     >
                     <Link className="sidebar-link cursor-pointer" href={link.route}>

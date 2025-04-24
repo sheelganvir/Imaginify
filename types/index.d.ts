@@ -5,8 +5,8 @@ declare type CreateUserParams = {
   clerkId: string;
   email: string;
   username: string;
-  firstName: string | null; // Allow null
-  lastName: string | null;  // Allow null
+  firstName: string;
+  lastName: string;
   photo: string;
 };
 
